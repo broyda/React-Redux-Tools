@@ -11,4 +11,10 @@
 
 # Debugging techniques
 1. Blackbox scripts (if need be)
-2. 
+2. For a DOM node, retrieve the CSS selector
+3. Edit HTML (shift-tab to rearrange)
+4. Use .cls feature for live css debugging
+```
+   Toggle checkbox(es) on and off
+   Add class to that element
+```
