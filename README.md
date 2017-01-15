@@ -4,3 +4,11 @@
 2. Redux Dev Tools
 3. React Perf
 4. Component Inspector (https://github.com/lahmatiy/component-inspector#react)
+5. Component Flow Loader (https://github.com/gurdasnijor/component-flow-loader)
+
+
+
+
+# Debugging techniques
+1. Blackbox scripts (if need be)
+2. 
