@@ -24,3 +24,22 @@
 # Performance debugging
 1. console.timeStamp()
 2. console.time(Label1) and console.timeEnd(Label1) - for Label1
+
+
+# JSX recipes
+
+Comments in JSX
+```
+{/*
+  This is a JXS comment
+*/}
+```
+
+Shorthand to pass props like so:
+```
+<Somecomponent {...myProps} />
+```
+
+Pass multiple styles inside className like so:
+const classes = ['someclass1', 'someclass2']
+<div className = {classes.join(' ')} ></div>
