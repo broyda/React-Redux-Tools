@@ -5,6 +5,8 @@
 3. React Perf
 4. Component Inspector (https://github.com/lahmatiy/component-inspector#react)
 5. Component Flow Loader (https://github.com/gurdasnijor/component-flow-loader)
+6. React JSON Inspector (https://github.com/Lapple/react-json-inspector)
+7. React Inspector (https://github.com/xyc/react-inspector)
 
 # Debugging techniques
 1. Blackbox scripts (if need be)
