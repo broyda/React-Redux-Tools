@@ -45,3 +45,8 @@ Shorthand to pass props like so:
 Pass multiple styles inside className like so:
 const classes = ['someclass1', 'someclass2']
 <div className = {classes.join(' ')} ></div>
+
+#### CSS techniques
+* {
+  background: rgba(0,0,0,0.3);
+}
