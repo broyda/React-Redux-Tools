@@ -7,6 +7,7 @@
 5. Component Flow Loader (https://github.com/gurdasnijor/component-flow-loader)
 6. React JSON Inspector (https://github.com/Lapple/react-json-inspector)
 7. React Inspector (https://github.com/xyc/react-inspector)
+8. React Component Hierarchy (https://github.com/bpxl-labs/react-component-hierarchy)
 
 # Debugging techniques
 1. Blackbox scripts (if need be)
