@@ -10,6 +10,7 @@
 8. React Component Hierarchy (https://github.com/bpxl-labs/react-component-hierarchy)
 9. Visible React (https://github.com/rkendall/visible-react)
 10. DOM visualizer (https://github.com/roman01la/react-dom-visualizer)
+11. React Lumberjack (https://github.com/ryanflorence/react-lumberjack)
 
 # Debugging techniques
 1. Blackbox scripts (if need be)
