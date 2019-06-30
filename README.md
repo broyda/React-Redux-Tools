@@ -54,7 +54,7 @@ Intra component communications in React Redux
 Props system  
 Context system - can communicate from any component to the Redux store  (Connect calls Provider that speaks to Redux)  
 
-mapStateToProps  - State here means the Redux store. Some data in the Redux store to show up as props in the component I am coding mapStateToProps  
+mapStateToProps  - State here means the Redux store. Some data in the Redux store to show up as props in the component I am coding mapStateToProps. Can have any alternate names.
 
 #### CSS techniques
 * {
