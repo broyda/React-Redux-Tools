@@ -50,6 +50,12 @@ Pass multiple styles inside className like so:
 const classes = ['someclass1', 'someclass2']
 <div className = {classes.join(' ')} ></div>
 
+Intra component communications in React Redux  
+Props system  
+Context system - can communicate from any component to the Redux store  (Connect calls Provider that speaks to Redux)  
+
+mapStateToProps  - State here means the Redux store. Some data in the Redux store to show up as props in the component I am coding mapStateToProps  
+
 #### CSS techniques
 * {
   background: rgba(0,0,0,0.3);
