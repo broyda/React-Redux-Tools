@@ -60,3 +60,52 @@ mapStateToProps  - State here means the Redux store. Some data in the Redux stor
 * {
   background: rgba(0,0,0,0.3);
 }
+
+
+
+<html>
+<head>
+<title>Blinking Text in TextBox using Javascript</title>
+<script language="javascript" type="text/javascript">
+var timer;
+function BlinkingText()
+{
+ if(document.getElementById("txtName").value == "")
+ {
+   document.getElementById("txtName").value = "Enter your name..";
+ }
+ else
+ {
+   document.getElementById("txtName").value = "";
+ }
+ timer = setTimeout("BlinkingText()", 500);
+}
+
+function StopBlinking()
+{
+  clearTimeout(timer);
+}
+
+function ContinueBlinking()
+{
+  if(document.getElementById("txtName").value == "Enter your name.." || document.getElementById("txtName").value == "")
+  {
+    BlinkingText();
+  }
+}
+
+function DoFocus()
+{
+  if(document.getElementById("txtName").value == "Enter your name.." || document.getElementById("txtName").value == "")
+  {
+    document.getElementById("txtName").value = "";
+    StopBlinking();
+  }
+}
+</script>
+</head>
+
+<body onload="BlinkingText()">
+Name : <input type="text" id="txtName" value="Enter your name.." onfocus="DoFocus();" onblur="ContinueBlinking();" />
+</body>
+</html>
